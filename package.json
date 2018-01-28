@@ -14,5 +14,12 @@
     "grunt-download-electron": "^2.1.4",
     "grunt-processhtml": "^0.4.1",
     "grunt-replace": "^1.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "bash ./post_install.sh"
+  },
+  "dependencies": {
+    "grunt-cli": "^1.2.0"
   }
 }

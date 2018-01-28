@@ -3,7 +3,7 @@ game.PretestScreen = me.ScreenObject.extend({
      *  action to perform on state change
      */
     onResetEvent: function() {
-        this.background = new me.ImageLayer(0,0,{image:'tell pretest-01'});
+        this.background = new me.ImageLayer(0,0,{image:'tell-pretest-01'});
         me.game.world.addChild(this.background,6);
         
         var viewport = me.game.viewport;

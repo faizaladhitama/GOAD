@@ -3,7 +3,7 @@ game.MenuScreen = me.ScreenObject.extend({
      *  action to perform on state change
      */
     onResetEvent: function() {
-        this.background = new me.ImageLayer(0,0,{image:'main menu enable speaker-01'});
+        this.background = new me.ImageLayer(0,0,{image:'main-menu-enable-speaker-01'});
         me.game.world.addChild(this.background,6);
 
         var viewport = me.game.viewport;

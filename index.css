@@ -17,6 +17,15 @@ body {
     margin: 0;
 }
 
+#screen {
+    position: relative;
+}
+
+#screen input {
+    position: absolute;
+    z-index: 2;
+}
+
 #screen canvas {
     margin: auto;
 
@@ -32,3 +41,5 @@ body {
     image-rendering: pixelated;
     -ms-interpolation-mode: nearest-neighbor;
 }
+
+
